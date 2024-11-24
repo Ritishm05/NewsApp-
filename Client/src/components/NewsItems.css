@@ -1,0 +1,21 @@
+.card{
+    position : relative;
+    top:4rem;
+    width:100%;
+    border:3px solid black;
+    overflow:visible;
+    word-wrap: break-word;
+}
+.site{
+    position:absolute;
+    top:-1rem;
+    right:-0.5rem;
+    background-color:rgb(186, 33, 33);
+    color:white;
+    padding:0.5rem;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}

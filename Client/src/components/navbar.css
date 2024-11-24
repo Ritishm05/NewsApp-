@@ -1,0 +1,29 @@
+.nav{
+    position: fixed;
+    top:0;
+    background-color: rgb(160, 42, 42);
+    display:flex;
+    color:black;;
+    list-style: none;
+    height:4.5vw;
+    width:100vw;
+    align-items: baseline;
+    z-index:100;
+    flex-wrap: wrap;
+}
+.abc{
+    text-decoration: none;
+    color:black;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+@media screen and(max-width:600px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+.abc:hover{
+    color:white;
+}
